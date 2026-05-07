@@ -5,8 +5,9 @@ import { Button } from "@/components/ui/button";
 import { Download, MapPin, Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#features", label: "Features" },
-  { href: "#how-it-works", label: "How It Works" },
+  { href: "/", label: "Home" },
+  { href: "/#features", label: "Features" },
+  { href: "/#how-it-works", label: "How It Works" },
   { href: "/contact", label: "Contact" },
 ];
 
@@ -33,7 +34,7 @@ export function Navbar() {
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
-          <a href="#" className="flex items-center gap-3">
+          <a href="/" className="flex items-center gap-3">
             <div className="flex h-11 w-11 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-lg shadow-primary/25">
               <MapPin className="h-6 w-6" />
             </div>
