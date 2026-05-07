@@ -7,7 +7,7 @@ import { Download, MapPin, Menu, X } from "lucide-react";
 const navLinks = [
   { href: "#features", label: "Features" },
   { href: "#how-it-works", label: "How It Works" },
-  { href: "#contact", label: "Contact" },
+  { href: "/contact", label: "Contact" },
 ];
 
 export function Navbar() {

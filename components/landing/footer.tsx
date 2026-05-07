@@ -89,19 +89,24 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
+                <a href="/user-guide" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
                   User Guide
                   <ExternalLink className="h-3 w-3" />
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
+                <a href="/privacy-policy" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
                   Privacy Policy
                 </a>
               </li>
               <li>
-                <a href="#" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
+                <a href="/terms-of-service" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
                   Terms of Service
+                </a>
+              </li>
+              <li>
+                <a href="/contact" className="flex items-center gap-2 text-muted-foreground transition-colors hover:text-primary">
+                  Contact
                 </a>
               </li>
             </ul>
